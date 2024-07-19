@@ -56,7 +56,9 @@ Features
 Requirements
 ------------
 
-The code was written in Python 3. The packages `numpy <http://www.numpy.org/>`_,
+The code was written to Python 3.6.
+
+The packages `numpy <http://www.numpy.org/>`_,
 `scipy <https://www.scipy.org/>`_, `matplotlib <https://matplotlib.org/>`_
 and `shapely <https://pypi.org/project/Shapely/>`_ are
 required for using ``pybimstab``. All of them are
@@ -66,10 +68,10 @@ following code lines:
 
 ::
 
-    pip install numpy
-    pip install scipy
-    pip install matplotlib
-    pip install shapely
+    pip install numpy==1.13.3
+    pip install scipy==1.1.0
+    pip install matplotlib==2.2.2
+    pip install shapely==1.6.4
 
 
 Installation
